@@ -1,0 +1,19 @@
+# Keep future additions subject to explicit disclosure review.
+.env*
+.dev.vars*
+*.sqlite*
+*.db
+*.db-*
+*.parquet
+*.arrow
+*.feather
+*.dbn
+*.pem
+*.key
+credentials*.json
+secrets*.json
+node_modules/
+.venv/
+.wrangler/
+__pycache__/
+private/

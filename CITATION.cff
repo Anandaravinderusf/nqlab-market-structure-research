@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this documentation and aggregate-results package; see CITATION.md."
+title: "NQ/LAB: Market-Structure Research"
+type: dataset
+authors:
+  - name: "NQ/LAB"
+abstract: "Descriptive historical market-structure research summaries for three separate selected cohorts under frozen SDR v0.11. Event-level data and replication code are not included."
+keywords:
+  - exploratory research
+  - market structure
+  - reproducibility

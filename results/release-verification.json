@@ -1,0 +1,63 @@
+{
+  "prepared_date": "2026-11-06",
+  "scope": "read-only existing-result arithmetic and disclosure review",
+  "signal_replay_executed": false,
+  "new_experiments_executed": false,
+  "test_suites_rerun": false,
+  "existing_outcomes_checked": 2222,
+  "cohorts_kept_separate": true,
+  "stored_candle_arithmetic": "PASS",
+  "pooled_summary_reconciliation": "PASS",
+  "timing_and_complete_windows": "PASS",
+  "selected_session_disjointness": "PASS",
+  "selected_archived_output_hash_checks": [
+    {
+      "source": "b",
+      "manifest": "manifest.json",
+      "output_hashes_checked": 6
+    },
+    {
+      "source": "c",
+      "manifest": "manifest.json",
+      "output_hashes_checked": 22
+    },
+    {
+      "source": "phase2",
+      "manifest": "manifest.json",
+      "output_hashes_checked": 79
+    },
+    {
+      "source": "phase2",
+      "manifest": "final-manifest.json",
+      "output_hashes_checked": 94
+    },
+    {
+      "source": "addendum",
+      "manifest": "manifest.json",
+      "output_hashes_checked": 7
+    },
+    {
+      "source": "d",
+      "manifest": "manifest.json",
+      "output_hashes_checked": 218
+    },
+    {
+      "source": "d",
+      "manifest": "final-manifest.json",
+      "output_hashes_checked": 233
+    }
+  ],
+  "completion_seals_checked": 3,
+  "frozen_source_and_replay_hashes": "PASS",
+  "january_raw_omission": "PASS",
+  "experiment_c_full_and_january_2_joint_omission": "PASS",
+  "experiment_d_all_raw_session_omissions": "PASS",
+  "protected_local_files_unchanged": 529,
+  "private_working_tree_unchanged": true,
+  "disclosure_pattern_scan": "PASS",
+  "external_end_to_end_replication_available": false,
+  "independent_pine_runtime_parity": false,
+  "underlying_instrument_provenance_verified": false,
+  "public_repository_created": false,
+  "limitations": "Bounded preparation check; archived scientific/software validation statements are not all independently rerun."
+}

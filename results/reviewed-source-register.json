@@ -1,0 +1,114 @@
+[
+  {
+    "source_id": "S01",
+    "title": "SDR v0.11 historical validation audit",
+    "version": "final audit report, 2026-10-27",
+    "sha256": "3e031debe416bb8eeb2a9fca0840f0e4e557c52aa674d5f10e87e6e23116ef48",
+    "availability": "reviewed privately; original not included",
+    "supports": "January timing, warm-up, dependence and parity limits"
+  },
+  {
+    "source_id": "S02",
+    "title": "January pilot report",
+    "version": "January open v2",
+    "sha256": "d66b2f79808ad1d0bdc88a49d77bb1acad461a3b52ef57db78a1084e8fac5f9d",
+    "availability": "reviewed privately; original not included",
+    "supports": "Original 87-event pilot and seven-donor benchmark"
+  },
+  {
+    "source_id": "S03",
+    "title": "Experiment B raw summary",
+    "version": "v2, 2026-10-27 package",
+    "sha256": "de986785f5953b50abf060edeb119559494638de897f12cc5df94b271387cffd",
+    "availability": "reviewed privately; original not included",
+    "supports": "January raw descriptive summaries"
+  },
+  {
+    "source_id": "S04",
+    "title": "Experiment C baseline findings",
+    "version": "v2, 2026-10-28 package",
+    "sha256": "7a03ed46a5b6a9c83061a84028332a330bba742f88bad2dad1ac54e4e9b7948c",
+    "availability": "reviewed privately; original not included",
+    "supports": "Retrospective contrasts, joint origin/donor omission and sign-count correction"
+  },
+  {
+    "source_id": "S05",
+    "title": "Experiment C baseline summary",
+    "version": "v2",
+    "sha256": "24e61d4263d15a92a802dbe9096df7ab9520bd71fc349160fdd7545dca2da667",
+    "availability": "reviewed privately; original not included",
+    "supports": "Full-cohort baseline contrast values"
+  },
+  {
+    "source_id": "S06",
+    "title": "Phase 2 cross-year raw summary",
+    "version": "v1, 2026-10-29 package",
+    "sha256": "4caf1339d72f9e38d2699bafd3e44ab8081bae2e68dfb659b3ed6c1382c1f5b1",
+    "availability": "reviewed privately; original not included",
+    "supports": "254-event raw descriptive summaries"
+  },
+  {
+    "source_id": "S07",
+    "title": "Phase 2 cross-year findings",
+    "version": "v1",
+    "sha256": "b24016a8cacb00434294f76f638a2f47f13268b90605c30e087656fa095ea0c3",
+    "availability": "reviewed privately; original not included",
+    "supports": "Calendar selection, exclusions and validation scope; read with S08"
+  },
+  {
+    "source_id": "S08",
+    "title": "Phase 2 review addendum",
+    "version": "v1, 2026-11-02 package",
+    "sha256": "f7ce6aa96cc640dab0c435340655c4007f48249579e1bdfd5c1477d5c821cc02",
+    "availability": "reviewed privately; original not included",
+    "supports": "Arithmetic/file review and two presentation corrections"
+  },
+  {
+    "source_id": "S09",
+    "title": "Experiment D findings",
+    "version": "v1, 2026-11-02 package",
+    "sha256": "e0ae50d20a3db5f1dd691eaac15420bf78d8edb8f2b29bd09dac3928687cd6fa",
+    "availability": "reviewed privately; original not included",
+    "supports": "Selection, omissions and not-independently-reviewed status"
+  },
+  {
+    "source_id": "S10",
+    "title": "Experiment D raw summary",
+    "version": "v1",
+    "sha256": "8c7f21e1893f0c9004a472e74da3514016fb71026652c4554483df80ab614771",
+    "availability": "reviewed privately; original not included",
+    "supports": "770-event raw descriptive summaries"
+  },
+  {
+    "source_id": "S11",
+    "title": "Experiment D analysis",
+    "version": "v1",
+    "sha256": "7eb53fa239c765a0951abd2e229cada9ea2c2d9b89fe6892b7cf1ecf1812d926",
+    "availability": "reviewed privately; original not included",
+    "supports": "Stored per-session omission and overlap diagnostics"
+  },
+  {
+    "source_id": "S12",
+    "title": "Frozen SDR identity record",
+    "version": "v0.11",
+    "sha256": "0fb64249361aeac2bf2334fbdb7d70b362e5c212b923d1dcda3bd80c2bbd379e",
+    "availability": "reviewed privately; original not included",
+    "supports": "Frozen source/replay digests and prospective-start boundary"
+  },
+  {
+    "source_id": "S13",
+    "title": "B/C implementation reproduction notes",
+    "version": "tracked checkpoint inspected 2026-11-06",
+    "sha256": "d614da474e58a6d1aab0de706a30ea4d99866c5f7206b06cdf2705267e0d8a8c",
+    "availability": "reviewed privately; original not included",
+    "supports": "Dependencies, baseline definitions and portability limits"
+  },
+  {
+    "source_id": "S14",
+    "title": "Experiment C joint-omission table",
+    "version": "v2",
+    "sha256": "428463f94749aea1e31a88aecea48be41eb38a584aa73b5edd74806a3e14b36f",
+    "availability": "reviewed privately; original not included",
+    "supports": "January-2 origin/donor omission values"
+  }
+]
