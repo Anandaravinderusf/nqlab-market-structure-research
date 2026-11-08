@@ -1,5 +1,11 @@
 # What can be reproduced
 
+> November 8 update: the sections below preserve the initial November 6 release
+> record. See the [post-event path package](../results/post-event-path-v1-20261107/README.md)
+> for the November 7 extension, fresh internal verification, definitions, and
+> continuing limitations. The initial record is not a claim that later work was
+> independently scientifically validated.
+
 ## From this public package
 
 Readers can inspect the methodology, limitations, six cohort/horizon aggregate

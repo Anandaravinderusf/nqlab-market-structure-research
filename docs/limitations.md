@@ -1,5 +1,11 @@
 # Scientific and reproducibility limitations
 
+> November 8 update: the sections below preserve the initial November 6 release
+> record. See the [post-event path package](../results/post-event-path-v1-20261107/README.md)
+> for the November 7 extension, fresh internal verification, definitions, and
+> continuing limitations. The initial record is not a claim that later work was
+> independently scientifically validated.
+
 1. **Instrument and data provenance.** Dated contract identity, rollover and
    adjustment mapping, vendor event/correction semantics, original timestamps
    (including exchange versus receipt and interval start versus end), full trade

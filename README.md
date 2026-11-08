@@ -7,8 +7,10 @@ with Nasdaq-100 futures. Historical baseline: frozen SDR v0.11.
 **Research question:** Do signed 5-minute and 15-minute post-event price changes
 show a consistent descriptive pattern across separate selected historical cohorts?
 
-This initial documentation and aggregate-results package was prepared for VIZN
-Horizons 2026. It contains reviewed summaries and a record of their verification.
+This curated documentation and aggregate-results package was prepared for VIZN
+Horizons 2026. The November 8 update adds the November 7 exploratory post-event
+path findings and a revised publication PDF. It contains reviewed summaries and
+an explicit record of internal arithmetic verification.
 Event-level observations, price data, executable replication scripts and full
 detector source are **not included**. External end-to-end replication is not yet
 possible from this package.
@@ -38,6 +40,23 @@ timestamp semantics remain unresolved. The internal data label is
 `UNVERIFIED_NQ_CACHE`; numerical agreement does not establish TradingView/Pine
 runtime parity. Genuine live webhook observations are a separate evidence stream
 and are not pooled with these historical cohorts.
+
+## November 7 post-event path update, released November 8
+
+In Experiment D's 770 events, median maximum favorable/adverse excursions over
+15 subsequent candles were 23.500/23.375 provisional NQ-labeled points.
+At least 10 favorable points were reached by 594/770 (77.1%), adverse points by
+572/770 (74.3%), and both sides by 396/770 (51.4%). Favorable reach is not
+prediction accuracy. No non-event benchmark was run.
+
+- [Findings, summary CSVs, and aggregate figure](results/post-event-path-v1-20261107/README.md)
+- [Follow-up methods and limitations](results/post-event-path-v1-20261107/methodology.md)
+- [Fresh internal verification and replication limits](results/post-event-path-v1-20261107/verification.md)
+- [Publication PDF: release note plus the approved 18-slide presentation](publication/NQLAB-Post-Event-Publication.pdf)
+
+The update reproduces stored arithmetic. Experiment D remains completed for
+independent review, not independently reviewed as a complete scientific package.
+Original historical provenance and independent Pine runtime parity remain unresolved.
 
 ## Read the evidence
 

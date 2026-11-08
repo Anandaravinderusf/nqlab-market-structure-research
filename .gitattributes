@@ -1,0 +1,2 @@
+# Preserve exact release bytes so the manifest verifies on every platform.
+* -text

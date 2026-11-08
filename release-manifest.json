@@ -1,237 +1,154 @@
 {
   "package": "nqlab-market-structure-research",
-  "prepared_date": "2026-11-06",
-  "kind": "initial documentation and aggregate results",
-  "approval_status": "staged for owner approval; not published during preparation",
-  "source_register": "results/reviewed-source-register.json",
-  "verification_record": "results/release-verification.json",
+  "prepared_date": "2026-11-08",
+  "kind": "curated aggregate research update and publication PDF",
+  "approval_status": "owner authorized curated aggregate findings and intended publication PDF",
+  "initial_public_commit": "6f09433d2762",
+  "verification_record": "results/post-event-path-v1-20261107/verification.json",
   "not_included": [
-    "event-level data",
-    "market candle data",
+    "event-level exports",
+    "original OHLCV",
     "detector source",
     "executable replication scripts",
-    "original private reports",
+    "private reports",
+    "environment metadata",
     "private Git history",
-    "figures",
-    "live observation records"
+    "ECDF",
+    "dated session summaries"
   ],
-  "license_status": "no open-source code or data license selected",
-  "self_hash_policy": "This manifest inventories every other payload file; its own digest is recorded in the private preparation report.",
+  "presentation_scope": "Previously approved intended-use illustrations retained in PDF; underlying records not released.",
+  "license_status": "No broader open-source code/data license selected",
+  "self_hash_policy": "Inventory excludes this manifest. Commit identifies released manifest bytes.",
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 83,
+      "sha256": "965fc246818d5047c0dc4240c3085709dfc221f7d1eebe9ecc909a9dc684e469"
+    },
     {
       "path": ".gitignore",
       "bytes": 234,
-      "sha256": "fdeebdd73cee2112fdb82804556a31bb3502a806a1a3b02a048aed5cbf727a33",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "owner-supplied project name and release scope",
-      "supporting_source_ids": [],
-      "verification_basis": "owner-supplied project identity, preparation scope and no-license decision"
+      "sha256": "fdeebdd73cee2112fdb82804556a31bb3502a806a1a3b02a048aed5cbf727a33"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 457,
-      "sha256": "75a9bfab09ae1f0044345e34408aee1f1e17bb50cf08ba68cfea1beffb27e070",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "owner-supplied project name and release scope",
-      "supporting_source_ids": [],
-      "verification_basis": "owner-supplied project identity, preparation scope and no-license decision"
+      "bytes": 581,
+      "sha256": "970b90b08053127fdd2d2e22cb0cf425ae6c856367ff5ddaf867a85f3936e10e"
     },
     {
       "path": "CITATION.md",
-      "bytes": 609,
-      "sha256": "97413d3eaeec6b1bb0da6c14b8daa1707b560ad9f9d08735f6c39ed93ff9b869",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "owner-supplied project name and release scope",
-      "supporting_source_ids": [],
-      "verification_basis": "owner-supplied project identity, preparation scope and no-license decision"
-    },
-    {
-      "path": "docs/data-dictionary.md",
-      "bytes": 1244,
-      "sha256": "cb6724a113080cee822896fa935a1b0a806fc9893f2c423f4c957e7c5f49b0e5",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S03",
-        "S06",
-        "S10"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
-    },
-    {
-      "path": "docs/limitations.md",
-      "bytes": 3190,
-      "sha256": "ad93e3323bd05edf39d307102699131bbab57a394bbcfb03410bf946fc816077",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S04",
-        "S07",
-        "S08",
-        "S09",
-        "S12"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
-    },
-    {
-      "path": "docs/methodology.md",
-      "bytes": 4780,
-      "sha256": "d9af059b11bb89fa4c25718c56baaabd6d525b451206b97a4cfe82820191a2fe",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S02",
-        "S04",
-        "S07",
-        "S09",
-        "S12",
-        "S13"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
-    },
-    {
-      "path": "docs/reproducibility.md",
-      "bytes": 3614,
-      "sha256": "4c63c460081bd7f8e5a4e18fd743be6d2b82ca532cf5ef1ff9af8b97da1bd980",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S08",
-        "S09",
-        "S12",
-        "S13"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
-    },
-    {
-      "path": "docs/research-sources.md",
-      "bytes": 2473,
-      "sha256": "323816601d2870f85050a4b063cbdd19f673d873b1c92932eddab86934a0deda",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S02",
-        "S03",
-        "S04",
-        "S05",
-        "S06",
-        "S07",
-        "S08",
-        "S09",
-        "S10",
-        "S11",
-        "S12",
-        "S13",
-        "S14"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
-    },
-    {
-      "path": "docs/verification.md",
-      "bytes": 3691,
-      "sha256": "d9b90c44e1e7ec89cea511747c010e340c3d95ca7d6b0797a482cb511b374780",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S03",
-        "S04",
-        "S05",
-        "S06",
-        "S08",
-        "S09",
-        "S10",
-        "S11",
-        "S14"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
+      "bytes": 638,
+      "sha256": "36efd5cab55feec37c482b34374d12822de78bd94a173a1ea8445409c7263597"
     },
     {
       "path": "README.md",
-      "bytes": 3092,
-      "sha256": "56d6771cebeee5c595fb86c5b942aac9feadbe1100d799b08296d3105fa1725c",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S02",
-        "S03",
-        "S06",
-        "S08",
-        "S09",
-        "S10"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
+      "bytes": 4304,
+      "sha256": "ee8b263bb688d24fe7a0d1c6adf94a063401f8104234d6e3d3f9c94bef046952"
+    },
+    {
+      "path": "REUSE.md",
+      "bytes": 1256,
+      "sha256": "24fd00c804739e209c05d3af6496a8f9ed81f51166941806208b508c8d4c1fa8"
+    },
+    {
+      "path": "docs/data-dictionary.md",
+      "bytes": 1619,
+      "sha256": "58f6d7c5a4fc30d050cad67df6a5a1aabd20b4cdcfd29416d51cd1cf0715babc"
+    },
+    {
+      "path": "docs/limitations.md",
+      "bytes": 3565,
+      "sha256": "ef54ee40d7150eefe3335fdfd31c34afde72a9ddf34eeade6537bad9814ada3f"
+    },
+    {
+      "path": "docs/methodology.md",
+      "bytes": 5155,
+      "sha256": "bfb88a9ea44d841627501f956d87144f5729b63afcb72a99d743055b5fce417b"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "bytes": 3989,
+      "sha256": "cc8c555d71e12502cdaf8aa9d5a1e47ebafff3a0094ef967440a080d32fdd049"
+    },
+    {
+      "path": "docs/research-sources.md",
+      "bytes": 2848,
+      "sha256": "1120e7c75769f3c34252eb4df0c90b1cea334f2a41b8877ec4a3a03f79174fff"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 4066,
+      "sha256": "1743d6bc6fdba342a364fecd70c586098d0545a543a1ee8d868571a1bffe0613"
+    },
+    {
+      "path": "publication/NQLAB-Post-Event-Publication.pdf",
+      "bytes": 286102,
+      "sha256": "2f472397047baaa80c499b399ef416ebdbbc243748479ebeb8dee036dba3f3d2"
     },
     {
       "path": "results/cohort-summary.csv",
       "bytes": 851,
-      "sha256": "04b1b3405aa80d57d4595bcb7ccf3914fb7c6d5417a987a8393b09e99ad229c8",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S03",
-        "S06",
-        "S10"
-      ],
-      "verification_basis": "direct reconciliation with preserved summaries and all stored event/candle outcomes"
+      "sha256": "04b1b3405aa80d57d4595bcb7ccf3914fb7c6d5417a987a8393b09e99ad229c8"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/README.md",
+      "bytes": 2482,
+      "sha256": "b4866325618a4e8f790fa71afda331227f8461dafa2f624b70dc30d8ff58d753"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/excursion-summary.csv",
+      "bytes": 6404,
+      "sha256": "5f0df98e1ab4c7587e078f035d05e181fdbb664af842d543b2ba3ce0d192b3cc"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/figure-caption.md",
+      "bytes": 740,
+      "sha256": "ece8fbf77ac63081ffbcb5c59b8500d03e541cd31fe79510cff410ab43ceffff"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/first-crossing-summary.csv",
+      "bytes": 8659,
+      "sha256": "3c0e3bb7760e0116bc292d414273161259a9d4e3ab82119eefa9aa5a80e2797f"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/methodology.md",
+      "bytes": 3497,
+      "sha256": "47e1e7efc866234e8ef55a401ee4c30ef395c0d0fb0af3bba77231a778d9229f"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/opposing-first-crossing.png",
+      "bytes": 245480,
+      "sha256": "a0281803b441108a12aaaf29e7cfec267719301d9f5e424300808a7b6da51279"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/threshold-summary.csv",
+      "bytes": 13249,
+      "sha256": "a647fd68b0e1180d03ad848e76d8c97134f8a0a5f207212457789d2825b3dd89"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/time-to-threshold.csv",
+      "bytes": 173142,
+      "sha256": "a9e3509e1cd395a7bceca56271d5e39e4f35a06278fd402f0c4357f24c131047"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/verification.json",
+      "bytes": 681,
+      "sha256": "7e17af61410f9e624d566bd920c4b1421b88dfbf44c11aeada5fd8c7e6339714"
+    },
+    {
+      "path": "results/post-event-path-v1-20261107/verification.md",
+      "bytes": 2257,
+      "sha256": "bbfeaff44cd3c85fbab8a96a4a46ba3d015f0ca710041049c69f476817cd6448"
     },
     {
       "path": "results/release-verification.json",
       "bytes": 1910,
-      "sha256": "188051bf630fe4ace474b74bd7a11d09636dd74005d6cdb0d7eca5f59ed52384",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S02",
-        "S03",
-        "S05",
-        "S06",
-        "S08",
-        "S10",
-        "S11",
-        "S12",
-        "S14"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
+      "sha256": "188051bf630fe4ace474b74bd7a11d09636dd74005d6cdb0d7eca5f59ed52384"
     },
     {
       "path": "results/reviewed-source-register.json",
       "bytes": 4587,
-      "sha256": "135921d3738add2f3af73f5f2d4ae28bacf0a32234add4e4e48ff8c52d0246c8",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "source register and release-verification record",
-      "supporting_source_ids": [
-        "S01",
-        "S02",
-        "S03",
-        "S04",
-        "S05",
-        "S06",
-        "S07",
-        "S08",
-        "S09",
-        "S10",
-        "S11",
-        "S12",
-        "S13",
-        "S14"
-      ],
-      "verification_basis": "reviewed source records; fresh-check versus archived-evidence scope explicitly disclosed"
-    },
-    {
-      "path": "REUSE.md",
-      "bytes": 716,
-      "sha256": "4ae88377f855379f7476b1c00ac5ca9ccd84d527ba5b32cc182db087c615861e",
-      "review_status": "reviewed for numerical scope and disclosure",
-      "support": "owner-supplied project name and release scope",
-      "supporting_source_ids": [],
-      "verification_basis": "owner-supplied project identity, preparation scope and no-license decision"
+      "sha256": "135921d3738add2f3af73f5f2d4ae28bacf0a32234add4e4e48ff8c52d0246c8"
     }
   ]
 }

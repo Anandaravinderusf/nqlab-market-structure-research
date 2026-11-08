@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-08",
+  "source_manifest_sha256": "f100d4acd37ab287d2d80b75f5f6debd4b30a5f72718fec1e54cc69fdffb3743",
+  "sealed_payloads_verified": 39,
+  "protected_files_unchanged": 529,
+  "tests_passed": 27,
+  "status": "PASS: internal arithmetic and disclosure checks",
+  "fresh_reproduction_identical_artifact_count": 14,
+  "events": 1111,
+  "sessions": 97,
+  "original_endpoints_checked": 2222,
+  "original_excursions_checked": 4444,
+  "event_threshold_pairs": 3333,
+  "numeric_field_comparisons": 69900,
+  "independent_scientific_validation": false,
+  "pine_runtime_parity": false,
+  "external_end_to_end_replication": false,
+  "market_data_provenance_resolved": false
+}

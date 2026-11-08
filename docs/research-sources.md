@@ -1,5 +1,11 @@
 # Reviewed sources and provenance
 
+> November 8 update: the sections below preserve the initial November 6 release
+> record. See the [post-event path package](../results/post-event-path-v1-20261107/README.md)
+> for the November 7 extension, fresh internal verification, definitions, and
+> continuing limitations. The initial record is not a claim that later work was
+> independently scientifically validated.
+
 The register below identifies actual preserved research records reviewed for
 this release. These are project records, not fabricated external literature or
 peer-reviewed publications. The [machine-readable register](../results/reviewed-source-register.json)
